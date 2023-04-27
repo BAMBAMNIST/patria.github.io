@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Avengers: ENDGAME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+/* Style the header */
+header {
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: purple;
+}
+
+/* Container for flexboxes */
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+h3{
+  color: black;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+  background-image: url("https://akm-img-a-in.tosshub.com/sites/dailyo/story/header/201904/endgame-header_042619104939.jpg");
+  padding: 20px;
+  max-height: 100vh;
+  color:white;
+  text-shadow:0.1em 0.1em #333;
+}
+
+/* Style the footer */
+footer {
+  background-color:purple;
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+  }
+}
+</style>
+</head>
+<body>
+
+<h3> CSS </h3>
+
+<header>
+  <h2>Avengers: ENDGAME</h2>
+</header>
+
+<section>
+  <nav>x
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="characters.html">CHARACTER</a></li>
+      <li><a href="plot.html">PLOT</a> </li>
+      <li><a href="aboutme.html">ABOUT ME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Creator: LOUIGI S. PATRIA</h1>
+    <p> From: Einstein 10</p>
+    <img src= "louigi.jpg" style="height: 300px;">
+  </article>
+</section>
+
+</body>
+</html>
+
